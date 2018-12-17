@@ -299,7 +299,7 @@ margin-left: 1.5rem;
   margin-top: 1.5rem;
   margin-bottom: .5rem;
 }
-.theses-block {
+#theses-block {
   width: 40%;
 }
 .other-thesis {
@@ -432,10 +432,10 @@ html {
   font-size: 16px;
 }
 h1 {
-  font-size: 2.7rem;
+  font-size: 2.1rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   font-weight: 700;
 }
 h3 {
@@ -448,7 +448,10 @@ p {
   font-size: 0.8rem;
 }
 h6 {
-  font-size: 1rem;
+  font-size: 0.8rem;
+}
+.head .learn-something p {
+  font-size: 1.5rem;
 }
 .desktop {
   display: none;
@@ -462,26 +465,98 @@ h6 {
   align-items: center;
   justify-content: space-between;
 }
+
 .head {
   flex-direction: column;
-
 }
 .head img {
   width: 100%;
   padding: 0;
 }
 .head .learn-something {
-  width: 100%;
-  padding: 2rem 1rem;
+  width: 90%;
+  margin: .5rem 1rem;
+  padding: 0;
 }
 a.start {
-  width: 90%;
+  width: 100%;
   margin-top: 1.5rem;
+  margin-bottom: 2rem;
 }
 .learn-something h1 {
   margin-bottom: 2rem;
 }
+/* Information */
+.information {
+  padding: 0;
+}
 .main.article {
   display: none;
+}
+.articles-block {
+margin-top: 0;
+padding-top: 0;
+  width: 100%;
+}
+.article {
+  display: flex;
+  flex-direction: column;
+  padding-top: 1rem;
+  padding-left: 1rem;
+  margin-bottom: 4rem;
+  width: 90%;
+}
+#last {
+  margin-bottom: 2rem;
+}
+.article img {
+  width: 100%;
+}
+
+.article .content {
+  width: 100%;
+}
+.article .content {
+padding-left: 1rem;
+}
+
+/* Courses */
+
+.courses h2 {
+  text-align: center;
+  padding-top: 2rem;
+}
+.courses {
+  background-color: hsla(0, 0%, 86%, 0.1);
+}
+.course-block {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 0 2rem 0;
+  width: 100%;
+}
+.course {
+  width: 90%;
+  height: auto;
+  background-color: hsl(0, 0%, 86%);
+  margin: .5rem;
+}
+
+/* Thesis exhibit*/
+.theses .flex {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+}
+.theses h2 {
+  margin-top: 0;
+  padding-top: 2rem;
+}
+ .main.thesis {
+  width: 100%;
+margin-right: 0;
+margin-left: 0;
 }
 }

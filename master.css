@@ -639,4 +639,8 @@ footer ul li {
     margin-right: 0;
     margin-left: 0;
   }
+  /* Footer */
+  footer {
+    height: auto;
+  }
 }
